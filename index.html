@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang = "en">
+<html lang = "es">
 	<head>
 		<title>Dante Professional Portfolio</title>
 		<meta charset="utf-8" />
@@ -37,11 +37,12 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html" ><b>Home</b></a></li>
-								<li><a href="generic.html"><b>About Me</b></a></li>
-								<li><a href="generic.html"><b>Portfolio</b></a></li>
-								<li><a href="generic.html"><b>Skills</b></a></li>
-								<li><a href="generic.html"><b>Education</b></a></li>
+								<li><a href="index.html" ><b id = "menu_home" >Inicio</b></a></li>
+								<li><a href="generic.html"><b id = "menu_aboutme" >Sobre Mi</b></a></li>
+								<li><a href="generic.html"><b id = "menu_portfolio" >Portafolio</b></a></li>
+								<li><a href="generic.html"><b id = "menu_skills" >Habilidades</b></a></li>
+								<li><a href="generic.html"><b id = "menu_education">Educación</b></a></li>
+								<li><a href="generic.html"><b id = "menu_contact" >Contacto</b></a></li>
 								<li><a href="generic.html"><b>Generic</b></a></li>
 								<li><a href="elements.html"><b>Elements</b></a></li>
 								
@@ -53,13 +54,13 @@
 				<!-- Banner -->
 					<section id="banner" >
 						<div class="inner">
-							<h2 id="title">Welcome, this is Dante's Portfolio </h2>
-							<p>Welcome, this is Dante's Portfolio</p>
+							<h2 id="title">Bienvenido, este es mi portafolio.</h2>
+							<p id="subtitle"> Dante Reinaudo, Ingeniero Informático </p>
 							
 							
 							<ul class="actions fit">
-								<li><a id="button_download" href="#" class="button primary icon solid fa-download" download>Download CV</a></li>
-								<li><a id="button_change" class="button primary fit" onclick="{changeLanguage()}" >Change Language</a></li>
+								<li><a id="button_download" href="#" class="button primary icon solid fa-download" download>Descargar CV</a></li>
+								<li><a id="button_change" class="button primary fit" onclick="{changeLanguage()}" >Cambiar Idioma</a></li>
 								
 								
 							</ul>
@@ -76,11 +77,9 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/picture.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">About Me</h2>
-										<p>I'm a Computer Engineering student on the verge of graduating from the esteemed University of Buenos Aires. 
-										   My academic focus lies in the realms of Data Science and Artificial Intelligence; 
-										   I find joy in acquiring fresh insights and sharing these aptitudes.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 id="aboutme_title" class="major">Sobre Mi</h2>
+										<p id="aboutme_text">Soy estudiante de Ingeniería Informática proximo a graduarme en la prestigiosa Universidad de Buenos Aires. Soy un entusiasta por la Ciencia de Datos y la Inteligencia Artificial, disfruto de adquirir nuevos conocimientos y compartir dichas habilidades.</p>
+										<a id="learn_more1" href="#" class="special">Ver más</a>
 									</div>
 								</div>
 							</section>
@@ -90,9 +89,9 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Skills</h2>
+										<h2 id = "skills_title"class="major">Habilidades</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<a id="learn_more2" href="#" class="special">Ver más</a>
 									</div>
 								</div>
 							</section>
@@ -102,9 +101,9 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Education</h2>
+										<h2 id = "education_title" class="major">Educación</h2>
 										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<a id="learn_more3" href="#" class="special">Ver más</a>
 									</div>
 								</div>
 							</section>
