@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang = "es">
+<html lang = "en">
 	<head>
 		<title>Dante Professional Portfolio</title>
 		<meta charset="utf-8" />
@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/icon.ico" type="image/x-icon">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="scripts.js"></script>
+		
 	</head>
 	<body class="is-preload">
 
@@ -26,7 +26,7 @@
 						</h1>
 						
 						<nav>	
-							<!--<a class="button primary" onclick="cambiaridioma()">English</button>-->
+							
 							<a href="#menu" class="button">Menu</a>
 								
 						</nav>
@@ -37,13 +37,13 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">About Me</a></li>
-								<li><a href="generic.html">Portfolio</a></li>
-								<li><a href="generic.html">Skills</a></li>
-								<li><a href="generic.html">Education</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
+								<li><a href="index.html" ><b>Home</b></a></li>
+								<li><a href="generic.html"><b>About Me</b></a></li>
+								<li><a href="generic.html"><b>Portfolio</b></a></li>
+								<li><a href="generic.html"><b>Skills</b></a></li>
+								<li><a href="generic.html"><b>Education</b></a></li>
+								<li><a href="generic.html"><b>Generic</b></a></li>
+								<li><a href="elements.html"><b>Elements</b></a></li>
 								
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -53,11 +53,16 @@
 				<!-- Banner -->
 					<section id="banner" >
 						<div class="inner">
-							<h2>Welcome, this is Dante's Portfolio </h2>
-							<p>Another free + fully responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-							<a class="button primary" onclick="cambiarIdioma()">Change Language</a>
-							<a class="button primary icon solid fa-download" onclick="">Download CV</a>
+							<h2 id="title">Welcome, this is Dante's Portfolio </h2>
+							<p>Welcome, this is Dante's Portfolio</p>
 							
+							
+							<ul class="actions fit">
+								<li><a id="button_download" href="#" class="button primary icon solid fa-download" download>Download CV</a></li>
+								<li><a id="button_change" class="button primary fit" onclick="{changeLanguage()}" >Change Language</a></li>
+								
+								
+							</ul>
 							
 						
 						</div>
@@ -194,6 +199,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="scripts.js"></script>
 			
 
 	</body>

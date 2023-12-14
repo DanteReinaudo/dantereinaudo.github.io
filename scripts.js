@@ -1,33 +1,46 @@
-const textos = {
+const translate = {
     "es": {
         "titulo": "Mi Portafolio",
         "descripcion": "Bienvenido a mi portafolio. Aquí puedes encontrar información sobre mis proyectos y habilidades.",
-        "bienvenida" : "Bienvenido, este es mi portafolio",
-        "texto_descarga" : "Descargar CV",
-        "texto_cambio" : "Cambiar Idioma"
+        "title" : "Bienvenido, este es mi portafolio",
+        "button_download" : "Descargar CV",
+        "button_change" : "Cambiar Idioma"
     },
     "en": {
         "titulo": "My Portfolio",
         "descripcion": "Welcome to my portfolio. Here you can find information about my projects and skills.",
-        "bienvenida" : "WELCOME, THIS IS DANTE'S PORTFOLIO",
-        "texto_descarga" : "Download CV",
-        "texto_cambio" : "Change language"
+        "title" : "WELCOME, THIS IS DANTE'S PORTFOLIO",
+        "button_download" : "Download CV",
+        "button_change" : "Change language"
     }
 };
 
 // Función para cambiar el idioma
-function cambiarIdioma() {
-    const idiomaActual = document.documentElement.lang;
-    const nuevoIdioma = idiomaActual === "es" ? "en" : "es";
+function changeLanguage() {
+    const lang = document.documentElement.lang;
+    const new_lang = lang === "es" ? "en" : "es";
 
     // Actualiza el contenido de los elementos HTML
-    document.getElementById("titulo").innerText = textos[nuevoIdioma]["titulo"];
-    document.getElementById("descripcion").innerText = textos[nuevoIdioma]["descripcion"];
+    //document.getElementById("titulo").innerText = textos[nuevoIdioma]["titulo"];
+    //document.getElementById("descripcion").innerText = textos[nuevoIdioma]["descripcion"];
 
-    document.getElementById("bienvenida").innerText = textos[nuevoIdioma]["bienvenida"];
-    document.getElementById("texto_descarga").innerText = textos[nuevoIdioma]["texto_descarga"];
-    document.getElementById("texto_cambio").innerText = textos[nuevoIdioma]["texto_cambio"];
+    document.getElementById("title").innerText = translate[new_lang]["title"];
+    document.getElementById("button_download").innerText = translate[new_lang]["button_download"];
+    document.getElementById("button_change").innerText = translate[new_lang]["button_change"];
 
     // Actualiza el atributo lang del elemento html
-    document.documentElement.lang = nuevoIdioma;
+    document.documentElement.lang = new_lang;
+    console.log("change language succesfully")
 }
+
+function changeCurriculumFile(lang) {
+    return (lang === 'es') ? 'cv/cv_es.pdf' : 'cv/cv_en.pdf';
+}
+
+function downloadCV() {
+    const lang = document.documentElement.lang;
+    const file_name = changeCurriculumFile(lang);
+    document.getElementById('button_download').href = file_name;
+}
+
+document.getElementById('button_download').addEventListener('click', downloadCV);
