@@ -18,7 +18,7 @@ This repository contains the source code and details of my personal portfolio. I
 
 ## Getting Started
 
-To view my portfolio, simply visit [Portfolio Website](https://your-portfolio-url.com).
+To view my portfolio, simply visit [Portfolio Website]([https://your-portfolio-url.com](https://dantereinaudo.github.io/)).
 
 ## Greetings
 Thank you for visiting my portfolio repository!
