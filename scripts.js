@@ -1,12 +1,11 @@
 const translate = {
     "es": {
-        "title" : "Bienvenido, este es mi portafolio",
+        "title" : "Bienvenido, este es mi portfolio",
         "subtitle":"Dante Reinaudo, Ingenierio Informático",
         "button_download" : "Descargar CV",
-        "button_change" : "Cambiar Idioma",
+        "button_change" : "Cambiar Idioma (Inglés)",
         "menu_home" :"Inicio",
         "menu_aboutme" :"Sobre Mi",
-        "menu_portfolio" :"Portafolio",
         "menu_skills" :"Habilidades",
         "menu_education" :"Educación",
         "menu_contact" :"Contacto",
@@ -25,13 +24,12 @@ const translate = {
     },
     "en": {
         
-        "title" : "Welcom, this is my portfolio",
+        "title" : "Welcome, this is my portfolio",
         "subtitle":"Dante Reinaudo, Computer Engineer",
         "button_download" : "Download CV",
-        "button_change" : "Change language",
+        "button_change" : "Change language (Spanish)",
         "menu_home" :"Home",
         "menu_aboutme" :"About Me",
-        "menu_portfolio" :"Portfolio",
         "menu_skills" :"Skills",
         "menu_education" :"Education",
         "menu_contact" :"Contact",
