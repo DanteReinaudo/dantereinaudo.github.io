@@ -1,34 +1,19 @@
-const nodemailer = require('nodemailer');
+const axios = require('axios');
 
 exports.handler = async function(event, context) {
   const data = JSON.parse(event.body);
 
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: 'tu-correo@gmail.com', // Coloca tu correo electrónico
-      pass: 'tu-contraseña'      // Coloca tu contraseña de aplicación (no la contraseña principal)
-    }
+  // Obtén el enlace del formulario de Google desde la variable de entorno
+  const scriptUrl = process.env.GOOGLE_SCRIPT_URL;
+
+  await axios.post(scriptUrl, {
+    name: data.name,
+    email: data.email,
+    message: data.message
   });
 
-  const mailOptions = {
-    from: 'tu-correo@gmail.com',  // Coloca tu correo electrónico
-    to: 'tu-correo-destino@gmail.com',  // Coloca el correo de destino
-    subject: 'Nuevo mensaje desde el formulario de contacto',
-    text: `Nombre: ${data.nombre}\nCorreo electrónico: ${data.email}\nMensaje: ${data.mensaje}`
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ message: 'Correo enviado con éxito' })
   };
-
-  try {
-    await transporter.sendMail(mailOptions);
-    return {
-      statusCode: 200,
-      body: JSON.stringify({ message: 'Correo enviado con éxito' })
-    };
-  } catch (error) {
-    console.error(error);
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: 'Error al enviar el correo' })
-    };
-  }
 };
