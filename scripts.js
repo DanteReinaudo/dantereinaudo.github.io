@@ -54,18 +54,14 @@ function changeLanguage() {
     const lang = document.documentElement.lang;
     const new_lang = lang === "es" ? "en" : "es";
 
-
     var keys = Object.keys(translate[new_lang])
     console.log(keys)
-
-   
 
     keys.forEach(function (key){
         var element = document.getElementById(key)
         if (translate[new_lang][key] && element) {
             element.textContent = translate[new_lang][key];
         }
-
     })
 
     document.documentElement.lang = new_lang;
@@ -77,6 +73,12 @@ function changeCurriculumFile(lang) {
 }
 
 function downloadCV() {
+    const lang = document.documentElement.lang;
+    const file_name = changeCurriculumFile(lang);
+    document.getElementById('button_download').href = file_name;
+}
+
+function redirectLang() {
     const lang = document.documentElement.lang;
     const file_name = changeCurriculumFile(lang);
     document.getElementById('button_download').href = file_name;
