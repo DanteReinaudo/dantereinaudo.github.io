@@ -12,7 +12,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/icon.ico" type="image/x-icon">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
+		<script>
+			window.onload = function() {
+				const lang = document.documentElement.lang;
+				setLanguage(lang);
+			};
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -57,7 +62,7 @@
 							
 							
 							<ul class="actions fit">
-								<li><a id="button_download" href="#" class="button primary icon solid fa-download" download>Descargar CV</a></li>
+								<li><a id="button_download" href="./cv/cv_es.pdf" class="button primary icon solid fa-download" download>Descargar CV</a></li>
 								<li><a id="button_change" class="button primary fit" onclick="{changeLanguage()}" >Cambiar Idioma (Inglés)</a></li>
 							</ul>
 							
@@ -86,7 +91,7 @@
 									<a href="#" class="image"><img src="images/skills.jpg" alt="" /></a>
 									<div class="content">
 										<h2 id = "skills_title"class="major">Habilidades</h2>
-										<p>La tecnología avanza rápidamente, y mi conjunto de habilidades se ha adaptado para abrazar las últimas tendencias. Desde lenguajes de programación hasta herramientas de desarrollo, he cultivado un conjunto diverso de habilidades. Explora la variedad de habilidades que aporto a través de mi experiencia y proyectos.</p>
+										<p id = "skills_text" ></p>
 										<a id="learn_more2" href="#" class="special">Ver más</a>
 									</div>
 								</div>
@@ -98,7 +103,7 @@
 									<a href="#" class="image"><img src="images/fiuba1.jpg" alt="" /></a>
 									<div class="content">
 										<h2 id = "education_title" class="major">Educación</h2>
-										<p> Completé mis estudios universitarios en Facultad de Ingeniería de la Universidad de Buenos, donde adquirí conocimientos sólidos y experiencias transformadoras. Descubre más sobre mi formación educativa y cómo ha influido en mi enfoque hacia la ingeniería informática.</p>
+										<p id = "education_text" style="text-align:end"> </p>
 										<a id="learn_more3" href="routes/education.html" class="special">Ver más</a>
 									</div>
 								</div>
@@ -146,11 +151,11 @@
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
-							<h2 class="major">Ponte en Contacto</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<h2 id="contact_title" class="major"></h2>
+							<p id="contact_subtitle" style="text-align: justify;"></p>
 							
-							
-							<form method="post" action="/.netlify/functions/sendEmail">
+
+							<form method="POST" action="https://formspree.io/f/xvoepryz">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -166,7 +171,7 @@
 									</div>
 								</div>
 								<ul class="actions fit">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" id="button_send" value="Send Message"/> </li>
 								</ul>
 							</form>
 
