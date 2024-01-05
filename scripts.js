@@ -45,7 +45,7 @@ translation = {
 
         "second_title":"Estudios Secundarios",
         "second_subtitle":"Colegio Nacional de Buenos Aires | 2012 - 2017",
-        "second_text1":"El Colegio Nacional de Buenos Aires (CNBA) es un colegio preuniversitario público, dependiente de la Universidad de Buenos Aires. Es el establecimiento educativo secundario más antiguo de la ciudad de Buenos Aires. AllÍ obtuve el título secundario de bachiller con mencion en Ciencias Naturales, Ciencias Exactas e Ingeniería.",
+        "second_text1":"El Colegio Nacional de Buenos Aires (CNBA) es un colegio preuniversitario público, dependiente de la Universidad de Buenos Aires. Es el establecimiento educativo secundario más antiguo de la ciudad de Buenos Aires. AllÍ obtuve el título secundario de bachiller con mención en Ciencias Naturales, Ciencias Exactas e Ingeniería.",
         "second_text2":"En el transcurso de mi educación secundaria, adquirí una base sólida en diversas disciplinas y participé activamente en actividades extracurriculares que ampliaron mi perspectiva y habilidades.",
         "second_text3":"El Colegio Nacional de Buenos Aires me proporcionó no solo conocimientos académicos, sino también una experiencia enriquecedora que contribuyó significativamente a mi desarrollo personal y educativo.",
         
@@ -54,6 +54,21 @@ translation = {
         "esp_text1":"Participé en la Especialización en Machine Learning ofrecida por la Universidad de Stanford a través de Coursera, en colaboración con DeepLearning.AI. Esta especialización consistió en una serie de tres cursos, donde adquirí conocimientos profundos en áreas clave del Machine Learning, incluyendo modelos de clasificación y regresión, técnicas de aprendizaje no supervisado, y más.",
         "esp_text2":"La colaboración entre Stanford y DeepLearning.AI proporcionó una base sólida para mi comprensión y aplicación de conceptos avanzados en el campo de la inteligencia artificial. Esta experiencia no solo amplió mis conocimientos en Machine Learning, sino que también me permitió enfrentar desafíos prácticos y aplicar los conceptos aprendidos en proyectos reales.",
         
+        "title_information" : "Información Personal",
+        "subtitle_information":"Detalles de mi perfil y trayectoria",
+        "aboutme_title": "Sobre Mi",
+        "aboutme_text1": "Mi nombre es Dante Reinaudo, soy Ingeniero Informático graduado de la Universidad de Buenos Aires. Nací en la provincia de Córdoba, Argentina, a finales de la década del 90. Desde temprana edad tuve que emigrar a Buenos Aires, donde resido hasta la actualidad, ciudad que siempre ha sido mi fuente de inspiración y que ha desempeñado un papel significativo en mi desarrollo personal y profesional.", 
+        "aboutme_text2": "Mi enfoque en la resolución de problemas se complementa con mi dedicación y meticulosidad en cada proyecto. La independencia y la habilidad para abordar desafíos de manera autónoma son rasgos que definen mi enfoque profesional. La dedicación es mi bandera, y la prolijidad en mi trabajo es un reflejo de mi compromiso con la excelencia. Siempre estoy dispuesto a enfrentar nuevos desafíos y encontrar soluciones creativas de manera eficiente.", 
+
+        "interests_title":"Intereses y Pasiones",
+        "interests_text1":"En el vasto campo de la programación, encuentro un profundo interés en la inteligencia artificial. Antes de embarcarme en mis estudios de ingeniería, contemplé la posibilidad de explorar campos como la psicología o las neurociencias, fascinado por la complejidad del funcionamiento cerebral.",
+        "interests_text2":"Soy un amante del aprendizaje, siempre estoy en busca de adquirir nuevos conocimientos, disfruto de la exploración constante mediante la participación en cursos, especializaciones, seminarios y manteniéndome informado sobre las últimas tendencias tecnológicas. Compartir y debatir estos conocimientos con otros constituye una parte fundamental de mi compromiso con el aprendizaje continuo.        ",
+        "interests_text3":"En mis tiempos libres, disfruto mucho de la lectura, en particular, las novelas de ciencia ficción y los libros de historia son mis tópicos favoritos. La lectura me permite explorar mundos imaginarios y comprender mejor la riqueza histórica de mi país.",
+        "interests_text4":"Dentro de mis distintas pasiones, la música ocupa un lugar especial en mi vida. Explorar nuevos géneros y descubrir sonidos innovadores es una de mis actividades preferidas. La música no solo es una fuente de entretenimiento para mí, sino también una manera de inspirarme y, en muchos casos, encontrar motivación durante mis largas jornadas de programación. Estoy constantemente abierto a explorar nuevos artistas y géneros, ampliando así mi horizonte musical.",
+        "interests_text5":"Socializar es otro aspecto esencial en mi persona, disfruto de pasar tiempo de calidad con mi familia y amistades. Pasear por Buenos Aires y aprovechar las diversas experiencias culturales que ofrece son fuentes constantes de inspiración y enriquecimiento.",
+        "interests_text6":"El ejercicio, especialmente la natación, es mi refugio. Sumergirme en el agua me proporciona no solo bienestar físico, sino también momentos de reflexión. Nadar regularmente es mi forma preferida de mantenerme en forma.",
+        "interests_text7":"Estos son solo algunos aspectos de mi identidad.",
+
         "button_back":"Volver al Inicio"
 
     },
@@ -72,7 +87,7 @@ translation = {
         "menu_contact" :"Contact",
         
         "aboutme_title" : "About Me",
-        "aboutme_text" : "I'm a Computer Engineering student on the verge of graduating from the esteemed University of Buenos Aires. My academic focus lies in the realms of Data Science and Artificial Intelligence; I find joy in acquiring fresh insights and sharing these aptitudes.",
+        "aboutme_text" : "I'm a Computer Engineering student on the verge of graduating from the esteemed University of Buenos Aires. My academic focus lies in the realms of Data Science and Artificial Intelligence. I find joy in acquiring fresh insights and sharing these aptitudes.",
 
         "skills_title" : "Skills",
         "skills_text" : "The technology is advancing rapidly, and my skill set has adapted to embrace the latest trends. From programming languages to development tools, I have cultivated a diverse set of capabilities. In terms of my personality, I possess the ease of socializing and working collaboratively in a team",
@@ -111,6 +126,24 @@ translation = {
         "esp_subtitle":"Machine Learning specialization -",
         "esp_text1":"I participated in the Machine Learning Specialization offered by Stanford University through Coursera, in collaboration with DeepLearning.AI. This specialization consisted of a series of three courses, where I acquired in-depth knowledge in key areas of Machine Learning, including classification and regression models, unsupervised learning techniques, and more.",
         "esp_text2":"The collaboration between Stanford and DeepLearning.AI provided a solid foundation for my understanding and application of advanced concepts in the field of artificial intelligence. This experience not only expanded my knowledge in Machine Learning, but also allowed me to face practical challenges and apply the concepts learned in real projects.",
+
+        "title_information" : "Personal information",
+        "subtitle_information":"Details of my profile and career",
+        "aboutme_title": "About Me",
+        "aboutme_text1": "My name is Dante Reinaudo, and I am a Computer Engineer graduated from the University of Buenos Aires. I was born in the province of Córdoba, Argentina, in the late '90s. From an early age, I had to migrate to Buenos Aires, where I currently reside. This city has always been my source of inspiration and has played a significant role in my personal and professional development.", 
+        "aboutme_text2": "My problem-solving approach is complemented by my dedication and meticulousness in every project. Independence and the ability to tackle challenges autonomously define my professional approach. Dedication is my banner, and the precision in my work reflects my commitment to excellence. I am always ready to face new challenges and find creative solutions efficiently.", 
+
+        "interests_title":"Interests and Passions",
+        "interests_text1":"In the vast field of programming, I have a deep interest in artificial intelligence. Before embarking on my engineering studies, I contemplated exploring fields such as psychology or neuroscience, fascinated by the complexity of brain function.",
+        "interests_text2":"I am a learning enthusiast, always seeking to acquire new knowledge. I enjoy constant exploration through participation in courses, specializations, seminars, and staying informed about the latest technological trends. Sharing and discussing these insights with others is a fundamental part of my commitment to continuous learning.",
+        "interests_text3":"In my free time, I greatly enjoy reading. Particularly, science fiction novels and history books are my favorite topics. Reading allows me to explore imaginary worlds and better understand the historical richness of my country.",
+        "interests_text4":"Among my various passions, music holds a special place in my life. Exploring new genres and discovering innovative sounds is one of my favorite activities. Music is not only a source of entertainment for me but also a way to inspire myself and, in many cases, find motivation during my long programming sessions. I am constantly open to exploring new artists and genres, expanding my musical horizon.",
+        "interests_text5":"Socializing is another essential aspect of my personality. I enjoy spending quality time with my family and friends. Walking through Buenos Aires and taking advantage of the diverse cultural experiences it offers are constant sources of inspiration and enrichment.",
+        "interests_text6":"Exercise, especially swimming, is my refuge. Immersing myself in the water provides not only physical well-being but also moments of reflection. Regular swimming is my preferred way to stay fit.",
+        "interests_text7":"These are just some aspects of my identity.",
+
+
+
 
         "button_back":"Go back"
 

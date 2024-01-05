@@ -14,8 +14,14 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script>
 			window.onload = function() {
-				const lang = document.documentElement.lang;
-				setLanguage(lang);
+				const lang = localStorage.getItem('lang');
+				if (lang){
+					setLanguage(lang);
+				} else {
+					const lang = document.documentElement.lang;
+					setLanguage(lang);
+					
+				}	
 			};
 		</script>
 	</head>
