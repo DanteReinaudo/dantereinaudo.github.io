@@ -2,7 +2,7 @@ translation = {
     "es": {
         
         "title" : "Bienvenido, este es mi portfolio",
-        "subtitle":"Dante Reinaudo, Ingenierio Informático",
+        "subtitle":"Dante Reinaudo, Ingeniero Informático",
         
         "button_download" : "Descargar CV",
         "button_change" : "Cambiar Idioma (Inglés)",
@@ -25,6 +25,13 @@ translation = {
         "learn_more1":"Ver más",
         "learn_more2":"Ver más",
         "learn_more3":"Ver más",
+        "learn_more4":"Ver más",
+        "learn_more5":"Ver más",
+        "learn_more6":"Ver más",
+        "learn_more7":"Ver más",
+        "learn_more8":"Ver más",
+        "learn_more9":"Ver más",
+        "browse_all":"Ver todos",
 
         "contact_title":"Contacto",
         "contact_subtitle":"Puedes ponerte en contacto conmigo para discutir oportunidades laborales, proyectos interesantes o simplemente charlar sobre temas relacionados con la tecnología. Enviame un  mensaje con tu direccion de correo electrónico y te contactaré a la brevedad. También puedes encontrarme en GitHub y LinkedIn.",
@@ -74,7 +81,7 @@ translation = {
         "prog_title": "Lenguajes de Programación",
         "prog_text" : "A lo largo de mi trayectoria académica y profesional, he tenido que aprender una amplia variedad de lenguajes de programación para abordar distintos proyectos. Desde mis primeros pasos en el mundo de la informática hasta mi graduación como Ingeniero Informático, he adquirido experiencia práctica en la implementación de algoritmos y resolución de problemas utilizando diversos lenguajes. Esto me brindo la capacidad de adaptarme y aprender rápidamente nuevos lenguajes de programación, ajustándome a las demandas específicas de cada proyecto.",
         "python_text1" :"Python fue mi introducción al mundo de la programación, y con él, escribí mi primer 'Hola Mundo'. Gracias a su simplicidad y a su amplia variedad de bibliotecas, especialmente en el ámbito de la ciencia de datos, es uno de los lenguajes que más utilizo. A pesar de mi preferencia personal por lenguajes compilados y tipados, los cuales valoro por su robustez y capacidad para prevenir errores, no puedo pasar por alto la versatilidad de Python. Su sintaxis clara y legible lo convierten en una herramienta valiosa para proyectos de rápida implementación y exploración de datos. Python no solo fue mi punto de partida, sino que sigue siendo una herramienta fundamental en mi repertorio de desarrollo.",
-        "python_text2" :"Durante mi formación, he desarrollado varios proyectos en Python, desde recrear el clásico juego del buscaminas hasta diseñar un programa conectado a la API de Spotify capaz de crear listas de reproducción según las condiciones climáticas. Además, participé activamente en una competencia de Kaggle donde se proporcionó un conjunto de datos relacionado con los daños causados por terremotos. Utilizando Python, desarrollé un modelo de clasificación para evaluar y prever posibles daños.",
+        "python_text2" :"Durante mi formación, he desarrollado varios proyectos en Python, desde recrear el clásico juego del buscaminas hasta diseñar un programa conectado a la API de Spotify capaz de crear listas de reproducción según las condiciones climáticas. Además, participé activamente en una competencia de Driven Data donde se proporcionó un conjunto de datos relacionado con los daños causados por terremotos. Utilizando Python, desarrollé un modelo de clasificación para evaluar y prever posibles daños.",
 
         "c_text1": "C fue el segundo lenguaje que aprendí, y lo utilicé principalmente para programar tipos de datos abstractos como pilas, colas y listas enlazadas. Esta experiencia me permitió profundizar en el manejo de punteros a memoria y en la comprensión del manejo de la memoria en general. Trabajar con C fue fundamental para fortalecer mi comprensión de algoritmos y estructuras de datos a un nivel más bajo. Este lenguaje me brindó una base sólida y práctica en la programación, contribuyendo significativamente a mi formación como ingeniero informático.",
         "java_text1":"Java marcó mi tercer paso en el mundo de la programación. Lo utilicé principalmente como una herramienta para profundizar en la programación orientada a objetos y sus conceptos fundamentales. Esta experiencia me permitió adquirir conocimientos sobre los principios SOLID, patrones de diseño y conceptos clave como polimorfismo y herencia. Este lenguaje me proporcionó una base sólida para entender y aplicar los principios fundamentales de la programación orientada a objetos en mis proyectos. Además de estos aspectos teóricos, me sirvió para poner en práctica metodologías concretas como el Desarrollo Dirigido por Pruebas (TDD), lo cual amplió mi enfoque hacia el testing efectivo de mis programas. ",
@@ -121,7 +128,27 @@ translation = {
         "soft_title5":"Resolución de Problemas",
         "soft_text5":"Encaro los desafíos con una mentalidad activa y orientada a soluciones. Cuento con la capacidad para analizar problemas, identificar soluciones creativas y tomar decisiones fundamentadas para superar obstáculos y mantener un progreso constante en mis proyectos.",
 
-
+        "project_title":"Proyectos",
+        "project_text":"Estos son algunos de los proyectos que he desarrollado a lo largo de los años. A continuación, encontrarás una muestra diversa de mi trabajo, que abarca desde aplicaciones web y móviles hasta proyectos de ciencia de datos y desarrollo de software.",
+        "fiufit_text":"Aplicación web y móvil para el monitoreo de entrenamientos en tiempo real. Desarrollo con React y React Native para la interfaz, con arquitectura orientada a microservicios en el backend utilizando FastAPI.",
+        "spotipy_text":"Programa en Python que se integra con la API de Spotify, ofreciendo diversas funcionalidades entre las cuales destaca la capacidad de generar listas de reproducción según las condiciones climáticas. ",
+        "kaggle_title":"Competencia de Driven Data",
+        "kaggle_text":"Competencia de Machine Learning de Driven Data, el objetivo era estimar el grado de daño de los edificios sufridos por un terremoto. Utilicé un modelo de XGBoost para hacer las predicciones. ",
+        "bittorrent_title":"BitTorrent con Rust",
+        "bittorrent_text":"Desarrollo de un Cliente Bitorrent desde cero utilizando Rust. Implementación del protocolo de comunicación, procesamiento del archivo .torrent y comunicación con el Tracker. ",
+        
+        "title_projects":"Portfolio de Proyectos",
+        "subtitle_projects":"Programas desarrollados",
+        "bin_title" : "Crypto Monitor",
+        "bin_text" : "Desarrollo de una plataforma para el monitoreo de valores de criptomonedas. Programado en Typescript e integrado con la Api de Binance para obtener la información del mercado en tiempo real. ",
+        "sol_title" : "SinoKa",
+        "sol_text" : "Juego de apuestas de caballos basado en contratos inteligentes. Escrita en Solidity, cada caballo fue representado como un NFT, y los participantes podían apostar utilizando tokens especificos del proyecto. ",
+        "alg_title" : "AlgoBlocks",
+        "alg_text" : "Juego que permite aprender los conceptos básicos de programación, mediante el armado de algoritmos y la utilización de bloques visuales. Desarrollado en Java, aplicando técnicas de programación orientada a objetos.",
+        "edc_title" : "Estructura de Datos con C",
+        "edc_text" : "Programación en C de algoritmos y estructuras de datos, comprendiendo su funcionamiento y  profundizando en el manejo de memoria. Resolución de problemas aplicando estructuras como Pilas, Colas y Listas enlazadas. ",
+        "bus_title" : "Buscaminas",
+        "bus_text" : "Desarrollo del clásico juego del Buscaminas utilizando Python. En particular, este fue el primer trabajo que realicé como programador.  ",
 
         "button_back":"Volver al Inicio"
 
@@ -152,6 +179,14 @@ translation = {
         "learn_more1":"Learn more",
         "learn_more2":"Learn more",
         "learn_more3":"Learn more",
+        "learn_more4":"Learn more",
+        "learn_more5":"Learn more",
+        "learn_more6":"Learn more",
+        "learn_more7":"Learn more",
+        "learn_more8":"Learn more",
+        "learn_more9":"Learn more",
+        "browse_all":"Browse All",
+        
 
         "contact_title":"Get in touch",
         "contact_subtitle":"You can get in touch with me to discuss job opportunities, interesting projects, or simply chat about technology-related topics. Send me a message with your email address, and I will get back to you promptly. You can also find me on GitHub and LinkedIn.",
@@ -201,7 +236,7 @@ translation = {
         "prog_title": "Programming Languages",
         "prog_text": "Throughout my academic and professional journey, I've had to learn a wide variety of programming languages to tackle different projects. From my early steps in the world of computing to my graduation as a Computer Engineer, I gained hands-on experience in implementing algorithms and problem-solving using various languages. This provided me with the ability to adapt and quickly learn new programming languages, adjusting to the specific demands of each project.",
         "python_text1": "Python was my introduction to the programming world, and with it, I wrote my first 'Hello World.' Thanks to its simplicity and a wide range of libraries, especially in the field of data science, it's one of the languages I use the most. Despite my personal preference for compiled and typed languages, which I value for their robustness and error-preventing capabilities, I can't overlook Python's versatility. Its clear and readable syntax makes it a valuable tool for quick implementation projects and data exploration. Python wasn't just my starting point; it remains a fundamental tool in my development repertoire.",
-        "python_text2": "During my education, I've developed various projects in Python, from recreating the classic Minesweeper game to designing a program connected to the Spotify API capable of creating playlists based on weather conditions. I also actively participated in a Kaggle competition where a dataset related to earthquake damages was provided. Using Python, I developed a classification model to assess and predict potential damage.",
+        "python_text2": "During my education, I've developed various projects in Python, from recreating the classic Minesweeper game to designing a program connected to the Spotify API capable of creating playlists based on weather conditions. I also actively participated in a Driven Data competition where a dataset related to earthquake damages was provided. Using Python, I developed a classification model to assess and predict potential damage.",
         "c_text1": "C was the second language I learned, mainly used to program abstract data types like stacks, queues, and linked lists. This experience allowed me to delve into memory pointers and understand memory management more deeply. Working with C was crucial to strengthening my understanding of algorithms and data structures at a lower level. This language provided me with a solid and practical foundation in programming, significantly contributing to my training as a computer engineer.",
         "java_text1": "Java marked my third step in the programming world. I used it primarily as a tool to deepen my understanding of object-oriented programming and its fundamental concepts. This experience allowed me to gain knowledge about SOLID principles, design patterns, and key concepts like polymorphism and inheritance. Java provided me with a solid foundation to understand and apply fundamental principles of object-oriented programming in my projects. Besides theoretical aspects, it helped me implement concrete methodologies like Test-Driven Development (TDD), expanding my focus on effective testing of my programs.",
         "js_text1": "Throughout my education, I worked on various projects that required frontend and backend development. Thus, I had to learn JavaScript and its superset TypeScript. I used these languages to create the user interface with React and manage the backend server with Node and Express. These projects were instrumental in expanding my experience in web development.",
@@ -243,6 +278,27 @@ translation = {
         "soft_title5": "Problem Solving",
         "soft_text5":"I face challenges with a proactive and solution-oriented mindset. I have the ability to analyze problems, identify creative solutions, and make informed decisions to overcome obstacles, ensuring a steady progress in my projects.",
 
+        "project_title": "Projects",
+        "project_text": "These are some of the projects I have developed over the years. Below, you'll find a diverse sample of my work, ranging from web and mobile applications to data science projects and software development.",
+        "fiufit_text": "Web and mobile application for real-time training monitoring. Developed using React and React Native for the interface, with a microservices-oriented architecture in the backend using FastAPI.",
+        "spotipy_text": "Python program that integrates with the Spotify API, offering various functionalities, including the ability to generate playlists based on weather conditions.",
+        "kaggle_title": "Driven Data Competition",
+        "kaggle_text": "Machine Learning competition on Driven Data, the goal was to estimate the degree of damage to buildings caused by an earthquake.",
+        "bittorrent_title": "BitTorrent with Rust",
+        "bittorrent_text": "Development of a BitTorrent client from scratch using Rust. Implementation of the communication protocol, processing of the .torrent file, and communication with the Tracker.",
+        
+        "title_projects": "Projects Portfolio",
+        "subtitle_projects": "Developed Programs and Apps",
+        "bin_title": "Crypto Monitor",
+        "bin_text": "Platform for monitoring cryptocurrency values. Programmed in Typescript and integrated with the Binance API to obtain real-time market information.",
+        "sol_title": "SinoKa",
+        "sol_text": "Horse betting game based on smart contracts. Written in Solidity, each horse was represented as an NFT, and participants could bet using project-specific tokens.",
+        "alg_title": "AlgoBlocks",
+        "alg_text": "Game that teaches basic programming concepts through algorithm assembly and the use of visual blocks. Developed in Java, applying object-oriented programming techniques.",
+        "edc_title": "Data Structures with C",
+        "edc_text": "Programming in C of algorithms and data structures, understanding their operation and delving into memory management. Problem-solving by applying structures such as Stacks, Queues, and Linked Lists.",
+        "bus_title": "Minesweeper",
+        "bus_text": "Development of the classic Minesweeper game using Python. In particular, this was the first work I did as a programmer.",
 
         "button_back":"Go back"
 
