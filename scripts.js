@@ -150,6 +150,30 @@ translation = {
         "bus_title" : "Buscaminas",
         "bus_text" : "Desarrollo del clásico juego del Buscaminas utilizando Python. En particular, este fue el primer trabajo que realicé como programador.  ",
 
+
+        
+        "subtitle_fiufit":"Aplicación web y móvil para el monitoreo de entrenamientos",
+        "fiufit_title1":"Descripión",
+        "fiufit_text1" :"Este proyecto fue llevado a cabo durante el primer semestre de 2023, en el marco de la materia Taller de Programación II de la Facultad de Ingeniería de Buenos Aires. El trabajo debía realizarse en grupos de seis compañeros y el objetivo era desarrollar una aplicación móvil que permitiera a los usuarios realizar un seguimiento de sus entrenamientos, monitorear su actividad física y ver su progreso a lo largo del tiempo. El espíritu de esta plataforma era poder brindar una conexión entre los usuarios y los entrenadores, para poder así cumplir con sus objetivos. El sistema debía satisfacer una variedad de requisitos especificados en el enunciado, algunos de los cuales se destacan a continuación:",
+        "fiufit_text2" : "Además de la aplicación móvil, se debía desarrollar una página web para el uso exclusivo de los administradores de la plataforma. Esta página web servía para el monitoreo de la aplicación y la visualización de distintas métricas del sistema. A su vez, permitía a los administradores bloquear usuarios y contenidos malintencionados, así como también la verificación de usuarios destacados.", 
+        "fiufit_item0":"Historias de usuario",
+        "fiufit_item1":"Registro de usuarios",
+        "fiufit_item2":"Inicio de sesión con email y contraseña",
+        "fiufit_item3":"Inicio de sesión con Google",
+        "fiufit_item4":"Servicio de notificaciones",
+        "fiufit_item5":"Servicio de ,ensajería",
+        "fiufit_item6":"Edición y visualización de perfil propio",
+        "fiufit_item7":"Seguimiento entre usuarios",
+        "fiufit_item8":"Creación y edición de entrenamientos con contenido multimedia",
+        "fiufit_item9":"Creación y edición de objetivos personales",
+        "fiufit_item10":"Monitoreo de entrenamientos y objetivos",
+        "fiufit_item11":"Búsqueda de usuarios y entrenamientos",
+        "fiufit_item12":"Calificación y comentarios de entrenamientos",
+        "fiufit_item13":"Compartir logros en otras redes sociales",
+        "fiufit_title2":"Desarrollo",
+        
+
+
         "button_back":"Volver al Inicio"
 
     },
