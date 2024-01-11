@@ -198,9 +198,6 @@ translation = {
         "bittorrent_item9":"Manejo de Erorres",
         "bittorrent_item10":"Uso de herramienta de Control de Versiones",
         "bittorrent_item11":"Documentación de funciones y tipos de datos",
-
-
-       
         "bittorrent_link1":" Informe del Proyecto",
 
         "button_back":"Volver al Inicio"
@@ -385,6 +382,21 @@ translation = {
         "fiufit_text6": "The combination of carefully selected technologies and architectures resulted in a robust application, meeting the requirements of the statement and providing a seamless user experience in both the mobile version developed with React Native and Expo, and the web version developed with React.",
         "fiufit_text7": "For additional information and a more detailed understanding of the project, please visit the following links:",
 
+        "subtitle_bittorrent": "BitTorrent Client using Rust",
+        "bittorrent_text1": "This project was carried out during the first semester of 2022, as part of the Programming Workshop I course at the Faculty of Engineering of Buenos Aires. The work was to be done in groups of four peers, and the project's goal was to implement a BitTorrent Client using Rust, which allows downloading more than one file at a time in a single execution. The system had to meet a variety of requirements specified in the statement, some of which are highlighted below:",
+        "bittorrent_item0": "Functional Requirements",
+        "bittorrent_item1": "Client Configuration through a Configuration File",
+        "bittorrent_item2": "Event Logging",
+        "bittorrent_item3": "Download Storage",
+        "bittorrent_item4": "Processing .torrent File",
+        "bittorrent_item5": "Communication with the Tracker",
+        "bittorrent_item6": "Graphical User Interface",
+        "bittorrent_item7": "Non-Functional Requirements",
+        "bittorrent_item8": "Automated Unit Testing",
+        "bittorrent_item9": "Error Handling",
+        "bittorrent_item10": "Use of Version Control Tool",
+        "bittorrent_item11": "Documentation of Functions and Data Types",
+        "bittorrent_link1":" Project Documentation",
         "button_back":"Go back"
 
     }
