@@ -17,7 +17,7 @@ translation = {
         "aboutme_text" : "Soy estudiante de Ingeniería Informática proximo a graduarme en la prestigiosa Universidad de Buenos Aires. Soy un entusiasta por la Ciencia de Datos y la Inteligencia Artificial, disfruto de adquirir nuevos conocimientos y compartir dichas habilidades.",
 
         "skills_title" : "Habilidades",
-        "skills_text" : "La tecnología avanza rápidamente, y mi conjunto de habilidades se ha adaptado para abrazar las últimas tendencias. Desde lenguajes de programación hasta herramientas de desarrollo, he cultivado un conjunto diverso de capacidades. Por mi personaldiad, cuento con la facilidad para socializar y trabajar en equipo.",
+        "skills_text" : "La tecnología avanza rápidamente, y mi conjunto de habilidades se ha adaptado para abrazar las últimas tendencias. Desde lenguajes de programación hasta herramientas de desarrollo, he cultivado un conjunto diverso de capacidades. Por mi personalidad, cuento con la facilidad para socializar y trabajar en equipo.",
 
         "education_title" : "Educación",
         "education_text" : "Me gradué como Ingeniero Infórmatico en la Facultad de Ingeniería de la Universidad de Buenos Aires. Allí obtuve una sólida formación en programación y logré superar distintos desafíos que me brindaron una gran experiencia.",
@@ -34,7 +34,7 @@ translation = {
         "browse_all":"Ver todos",
 
         "contact_title":"Contacto",
-        "contact_subtitle":"Puedes ponerte en contacto conmigo para discutir oportunidades laborales, proyectos interesantes o simplemente charlar sobre temas relacionados con la tecnología. Enviame un  mensaje con tu direccion de correo electrónico y te contactaré a la brevedad. También puedes encontrarme en GitHub y LinkedIn.",
+        "contact_subtitle":"Puedes ponerte en contacto conmigo para discutir oportunidades laborales o proyectos interesantes. Enviame un  mensaje con tu direccion de correo electrónico y te contactaré a la brevedad. También puedes encontrarme en GitHub y LinkedIn.",
         "button_send":"Enviar Mensaje",
 
         "title_education":"Formación Académica",
@@ -129,7 +129,7 @@ translation = {
         "soft_text5":"Encaro los desafíos con una mentalidad activa y orientada a soluciones. Cuento con la capacidad para analizar problemas, identificar soluciones creativas y tomar decisiones fundamentadas para superar obstáculos y mantener un progreso constante en mis proyectos.",
 
         "project_title":"Proyectos",
-        "project_text":"Estos son algunos de los proyectos que he desarrollado a lo largo de los años. A continuación, encontrarás una muestra diversa de mi trabajo, que abarca desde aplicaciones web y móviles hasta proyectos de ciencia de datos y desarrollo de software.",
+        "project_text":"Estos son algunos de los proyectos que he desarrollado a lo largo de los años. A continuación, se muestra un variedad de trabajos que abarcan desde aplicaciones web y móviles hasta proyectos de ciencia de datos y desarrollo de software.",
         "fiufit_text":"Aplicación web y móvil para el monitoreo de entrenamientos en tiempo real. Desarrollo con React y React Native para la interfaz, con arquitectura orientada a microservicios en el backend utilizando FastAPI.",
         "spotipy_text":"Programa en Python que se integra con la API de Spotify, ofreciendo diversas funcionalidades entre las cuales destaca la capacidad de generar listas de reproducción según las condiciones climáticas. ",
         "kaggle_title":"Competencia de Driven Data",
