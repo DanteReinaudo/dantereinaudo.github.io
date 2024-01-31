@@ -78,6 +78,12 @@ translation = {
 
         "title_skills" : "Habilidades y Herramientas",
         "subtitle_skills":"Competencias y Destrezas en el Área",
+        "skill_index": "Indice",
+        "prog_index": "Lenguajes de Programación",
+        "herr_index": "Herramientas y Frameworks",
+        "apt_index": "Aptitudes Técnicas",
+        "soft_index": "Habilidades Blandas",
+
         "prog_title": "Lenguajes de Programación",
         "prog_text" : "A lo largo de mi trayectoria académica y profesional, he tenido que aprender una amplia variedad de lenguajes de programación para abordar distintos proyectos. Desde mis primeros pasos en el mundo de la informática hasta mi graduación como Ingeniero Informático, he adquirido experiencia práctica en la implementación de algoritmos y resolución de problemas utilizando diversos lenguajes. Esto me brindo la capacidad de adaptarme y aprender rápidamente nuevos lenguajes de programación, ajustándome a las demandas específicas de cada proyecto.",
         "python_text1" :"Python fue mi introducción al mundo de la programación, y con él, escribí mi primer 'Hola Mundo'. Gracias a su simplicidad y a su amplia variedad de bibliotecas, especialmente en el ámbito de la ciencia de datos, es uno de los lenguajes que más utilizo. A pesar de mi preferencia personal por lenguajes compilados y tipados, los cuales valoro por su robustez y capacidad para prevenir errores, no puedo pasar por alto la versatilidad de Python. Su sintaxis clara y legible lo convierten en una herramienta valiosa para proyectos de rápida implementación y exploración de datos. Python no solo fue mi punto de partida, sino que sigue siendo una herramienta fundamental en mi repertorio de desarrollo.",
@@ -200,6 +206,25 @@ translation = {
         "bittorrent_item11":"Documentación de funciones y tipos de datos",
         "bittorrent_link1":" Informe del Proyecto",
 
+        "subtitle_spotycloud":"Integración de la API de Spotify con Python",
+        "spotycloud_text1": "Este proyecto fue llevado a cabo durante el segundo semestre de 2019, en el marco de la materia Algoritmos y Programación I de la Facultad de Ingeniería de Buenos Aires. El programa fue desarrollado en Python y se integra tanto con la API de Spotify como con la de OpenWeather. El sistema debía satisfacer una variedad de requisitos especificados en el enunciado, algunos de los cuales se destacan a continuación:",
+        "spotycloud_item0":"Requisitos Funcionales",
+        "spotycloud_item1":"Crear y Editar Playlists",
+        "spotycloud_item2":"Agregar y Eliminar Canciones de Playlists",
+        "spotycloud_item3":"Obtener los Artistas Top de Diferentes Países",
+        "spotycloud_item4":"Generar Playlists según el Clima",
+
+        "subtitle_dd": "Predicción de Daño por Terremotos utilizando Machine Learning",
+        "dd_text1": "Este proyecto fue llevado a cabo durante el primer semestre de 2021, en el marco de una competencia de DrivenData. Esta organización trabaja en proyectos de ciencia de datos con impacto social, en áreas como desarrollo internacional, salud, educación, investigación y conservación. El objetivo del trabajo era predecir el nivel de daño a los edificios causado por el terremoto de Gorkha de 2015 en Nepal, basándose en aspectos como la ubicación y la construcción de los edificios. Los datos provistos fueron recopilados a través de encuestas realizadas por Kathmandu Living Labs y la Oficina Central de Estadísticas de Nepal. Este es uno de los conjuntos de datos posteriores a desastres más grandes y contiene información valiosa sobre los impactos de los terremotos, las condiciones de los hogares y las estadísticas socioeconómicas y demográficas.",
+        "dd_text2": "En primer lugar, se realizó un análisis exploratorio de los datos con el objetivo de encontrar relaciones interesantes entre los diferentes features. A su vez, se llevó a cabo una limpieza adecuada del dataset junto con un proceso de ingeniería de características para enriquecer el conjunto de datos. Una vez procesada la información, se probó con distintos modelos de machine learning para predecir el grado de daño, comparando y evaluando los distintos modelos para obtener el de mejores resultados. Se puede encontrar informes detallados sobre estos procesos en la sección de enlaces.",
+        "dd_link1": "Enlace a la competencia de DrivenData",
+        "dd_link3": "Informe del Análisis de Datos",
+        "title_bm":"Buscaminas",
+        "subtitle_bm": "Implementación de Buscaminas en Python",
+        "bm_text1": "Este proyecto fue llevado a cabo durante el segundo semestre de 2019, en el marco de la materia Algoritmos y Programación I de la Facultad de Ingeniería de Buenos Aires. Fue mi primer desafío como programador; el objetivo era recrear el juego del BuscaMinas utilizando Python y permitir al usuario jugar a través de la línea de comandos mediante un menú. Al ser una de mis primeras experiencias programando, contiene una gran variedad de malas prácticas, como la falta de modularización, poca reutilización de código y un manejo dudoso de errores. Sin embargo, el juego funcionaba y tenía un menú amigable que permitía incluso configurar las bombas y el tablero. Mucho tiempo después, decidí reescribir el código, proporcionándole una interfaz gráfica y utilizando mejores prácticas de programación.",
+
+
+
         "button_back":"Volver al Inicio"
 
     },
@@ -283,6 +308,12 @@ translation = {
 
         "title_skills": "Skills and Tools",
         "subtitle_skills": "Resources and Abilities in the Area",
+        "skill_index": "Index",
+        "prog_index": "Programming Languages",
+        "herr_index": "Tools and Frameworks",
+        "apt_index": "Technical Skills",
+        "soft_index": "Soft Skills",
+
         "prog_title": "Programming Languages",
         "prog_text": "Throughout my academic and professional journey, I've had to learn a wide variety of programming languages to tackle different projects. From my early steps in the world of computing to my graduation as a Computer Engineer, I gained hands-on experience in implementing algorithms and problem-solving using various languages. This provided me with the ability to adapt and quickly learn new programming languages, adjusting to the specific demands of each project.",
         "python_text1": "Python was my introduction to the programming world, and with it, I wrote my first 'Hello World.' Thanks to its simplicity and a wide range of libraries, especially in the field of data science, it's one of the languages I use the most. Despite my personal preference for compiled and typed languages, which I value for their robustness and error-preventing capabilities, I can't overlook Python's versatility. Its clear and readable syntax makes it a valuable tool for quick implementation projects and data exploration. Python wasn't just my starting point; it remains a fundamental tool in my development repertoire.",
@@ -397,6 +428,25 @@ translation = {
         "bittorrent_item10": "Use of Version Control Tool",
         "bittorrent_item11": "Documentation of Functions and Data Types",
         "bittorrent_link1":" Project Documentation",
+
+        "subtitle_spotycloud": "Integration of Spotify API with Python",
+        "spotycloud_text1": "This project was carried out during the second semester of 2019, as part of the Algorithms and Programming I course at the Faculty of Engineering of Buenos Aires. The program was developed in Python and integrates with both the Spotify API and the OpenWeather API. The system had to meet a variety of requirements specified in the statement, some of which are highlighted below:",
+        "spotycloud_item0": "Functional Requirements",
+        "spotycloud_item1": "Create and Edit Playlists",
+        "spotycloud_item2": "Add and Remove Songs from Playlists",
+        "spotycloud_item3": "Get Top Artists from Different Countries",
+        "spotycloud_item4": "Generate Playlists based on Weather",
+
+        "subtitle_dd": "Earthquake Damage Prediction using Machine Learning",
+        "dd_text1": "This project was carried out during the first semester of 2021 as part of a DrivenData competition. DrivenData focuses on data science projects with social impact in areas such as international development, health, education, research, and conservation. The goal of the project was to predict the level of damage to buildings caused by the 2015 Gorkha earthquake in Nepal, based on factors such as the location and construction of the buildings. The provided data was collected through surveys conducted by Kathmandu Living Labs and the Central Bureau of Statistics of Nepal. This is one of the largest post-disaster datasets, containing valuable information about earthquake impacts, home conditions, and socio-economic and demographic statistics.",
+        "dd_text2": "Firstly, an exploratory data analysis was conducted to identify interesting relationships between different features. Subsequently, proper dataset cleaning and feature engineering processes were performed to enhance the dataset. Once the information was processed, various machine learning models were tested to predict the damage severity, comparing and evaluating different models to obtain the best-performing one. Detailed reports on these processes can be found in the links section.",
+        "dd_link1": "DrivenData Competition Link",
+        "dd_link3": "Data Analysis Report Link",
+
+        "title_bm": "Minesweeper",
+        "subtitle_bm": "Minesweeper Implementation in Python",
+        "bm_text1": "This project was carried out during the second semester of 2019, as part of the Algorithms and Programming I course at the Faculty of Engineering of Buenos Aires. It was my first challenge as a programmer; the goal was to recreate the Minesweeper game using Python and allow the user to play through the command line using a menu. As one of my early programming experiences, it contains a variety of bad practices such as a lack of modularization, limited code reuse, and questionable error handling. Nevertheless, the game worked, featuring a user-friendly menu that even allowed configuring bombs and the game board. Much later, I decided to rewrite the code, giving it a graphical interface and using better programming practices.",
+
         "button_back":"Go back"
 
     }
