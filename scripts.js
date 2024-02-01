@@ -154,7 +154,7 @@ translation = {
         "edc_title" : "Estructura de Datos con C",
         "edc_text" : "Programación en C de algoritmos y estructuras de datos, comprendiendo su funcionamiento y  profundizando en el manejo de memoria. Resolución de problemas aplicando estructuras como Pilas, Colas y Listas enlazadas. ",
         "bus_title" : "Buscaminas",
-        "bus_text" : "Desarrollo del clásico juego del Buscaminas utilizando Python. En particular, este fue el primer trabajo que realicé como programador.  ",
+        "bus_text" : "Desarrollo del clásico juego del Buscaminas utilizando Python. La versión original se juega por linea de comandos, pero luego desarrolle una interfaz gráfica con tkinter. En particular, este fue el primer trabajo que realicé como programador.",
 
 
         
@@ -379,7 +379,7 @@ translation = {
         "edc_title": "Data Structures with C",
         "edc_text": "Programming in C of algorithms and data structures, understanding their operation and delving into memory management. Problem-solving by applying structures such as Stacks, Queues, and Linked Lists.",
         "bus_title": "Minesweeper",
-        "bus_text": "Development of the classic Minesweeper game using Python. In particular, this was the first work I did as a programmer.",
+        "bus_text": "Development of the classic Minesweeper game using Python. The original version is played through the command line, but later, I developed a graphical interface with tkinter.",
 
         "subtitle_fiufit": "Web and mobile application for workout monitoring",
         "fiufit_title1": "Description",
