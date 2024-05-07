@@ -20,7 +20,7 @@ translation = {
         "skills_text" : "Desde lenguajes de programación hasta herramientas de desarrollo, he cultivado un conjunto diverso de capacidades. Por mi personalidad, cuento con la facilidad para socializar y trabajar en equipo.",
 
         "education_title" : "Educación",
-        "education_text" : "Estudié Ingeniería Infórmatica en la Facultad de Ingeniería de la Universidad de Buenos Aires. Allí obtuve una sólida formación en programación y logré superar distintos desafíos que me brindaron una gran experiencia.",
+        "education_text" : "Estudié Ingeniería Informática en la Facultad de Ingeniería de la Universidad de Buenos Aires. Allí obtuve una sólida formación en programación y logré superar distintos desafíos que me brindaron una gran experiencia.",
 
         "learn_more1":"Ver más",
         "learn_more2":"Ver más",
