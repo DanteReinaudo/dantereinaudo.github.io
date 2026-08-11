@@ -1,0 +1,24 @@
+- company: Muttdata
+  role: Data Engineer
+  location: Buenos Aires, Argentina
+  period: Junio 2024 – Presente
+  current: true
+  bullets:
+    - "Desarrollé pipelines de datos end-to-end utilizando Python, Spark y SQL sobre Databricks, habilitando procesamiento escalable"
+    - "Migré pipelines desde Snowflake a Databricks, optimizando arquitectura y reduciendo costos de procesamiento"
+    - "Reemplacé procesos scheduleados basados en queries por soluciones orquestadas con dbt y Airflow, mejorando mantenibilidad y observabilidad"
+    - "Refactoricé queries y modelos de datos, reduciendo tiempos de ejecución y costos en entornos productivos"
+    - "Diseñé modelos de datos y pipelines para ingestión, transformación y consumo en sistemas downstream"
+    - "Automaticé la generación de reportes y procesos de carga de datos, eliminando tareas manuales y mejorando la confiabilidad operativa"
+    - "Colaboré con stakeholders en la definición de requerimientos, diseño de soluciones y priorización de iniciativas"
+
+- company: Facultad de Ingeniería, UBA
+  role: Teaching Assistant – Ingeniería de Software II
+  location: Buenos Aires, Argentina
+  period: Marzo 2024 – Presente
+  current: true
+  bullets:
+    - "Actué como Product Owner en proyectos académicos, definiendo backlog y priorizando entregables"
+    - "Coordiné reuniones semanales de seguimiento, evaluando avances y asegurando cumplimiento de objetivos"
+    - "Guié a estudiantes en buenas prácticas de desarrollo, diseño de software y gestión de proyectos"
+    - "Brindé soporte técnico y resolución de dudas en implementación de funcionalidades y arquitectura"

@@ -1,0 +1,14 @@
+<div class="box project-box">
+  {% if include.image %}<img src="{{ include.image | relative_url }}" alt="" loading="lazy" width="480" height="270">{% endif %}
+  <h4>{% if include.url %}<a href="{{ include.url }}">{{ include.title }}</a>{% else %}{{ include.title }}{% endif %}</h4>
+  <p>{{ include.description }}</p>
+  {% if include.tech %}
+  <ul class="tag-list">
+    {% for item in include.tech %}<li class="tag">{{ item }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+  <div class="box-links">
+    {% if include.url %}<a href="{{ include.url }}">{{ include.cta }} &rarr;</a>{% endif %}
+    {% if include.github %}<a href="{{ include.github }}">GitHub</a>{% endif %}
+  </div>
+</div>

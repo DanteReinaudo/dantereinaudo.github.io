@@ -1,0 +1,10 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+*.gem
+.sass-cache/
+*:Zone.Identifier
+.claude/
+CLAUDE.md

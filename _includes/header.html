@@ -1,0 +1,23 @@
+<header>
+  <a href="{{ include.home_url }}" class="logo">
+    <span class="logo-name">{{ include.s.name }}</span>
+    <span class="logo-role">{{ include.s.role }}</span>
+  </a>
+
+  <button type="button" id="menu-icon" class="bx bx-menu" aria-expanded="false" aria-controls="site-navbar">
+    <span class="sr-only">{{ include.t.menu }}</span>
+  </button>
+
+  <ul class="navbar" id="site-navbar">
+    <li><a href="{{ include.home_url }}#summary">{{ include.t.summary }}</a></li>
+    <li><a href="{{ include.home_url }}#experience">{{ include.t.experience }}</a></li>
+    <li><a href="{{ include.home_url }}#expertise">{{ include.t.expertise }}</a></li>
+    <li><a href="{{ include.home_url }}#projects">{{ include.t.projects }}</a></li>
+    <li><a href="{{ include.home_url }}#education">{{ include.t.education }}</a></li>
+    <li><a href="{{ include.home_url }}#contact">{{ include.t.contact }}</a></li>
+    <li class="nav-actions">
+      <a class="btn-outline btn" href="{{ page.alt_url | default: include.home_url }}"{% if page.alt_lang %} hreflang="{{ page.alt_lang }}"{% endif %}>{{ include.t.language_switch }}</a>
+      <a class="btn" href="{{ include.s.cv_file | relative_url }}" download>{{ include.t.download_cv }}</a>
+    </li>
+  </ul>
+</header>

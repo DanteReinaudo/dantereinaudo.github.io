@@ -1,0 +1,55 @@
+title: Dante Reinaudo — Data Engineer
+tagline: Data Engineer building production data platforms on Spark, Databricks and cloud infrastructure
+description: >-
+  Portfolio of Dante Reinaudo, Data Engineer (SSR) at Muttdata. Python, SQL, Spark,
+  dbt, Airflow, Databricks and AWS — production data pipelines, architecture and engineering practice.
+url: "https://dantereinaudo.github.io"
+baseurl: ""
+
+author:
+  name: Dante Reinaudo
+  email: dreinaudo@fi.uba.ar
+  github: DanteReinaudo
+  linkedin: https://ar.linkedin.com/in/dante-reinaudo
+
+image: /assets/images/headshot.jpg
+twitter:
+  card: summary
+
+lang: es
+default_lang: es
+languages: [es, en]
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+theme: null
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - node_modules
+  - vendor

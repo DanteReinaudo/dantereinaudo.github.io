@@ -1,0 +1,24 @@
+- title: SpotiCloud
+  description: "Integración con las APIs de Spotify y OpenWeather en Python: gestión de playlists y generación de listas de reproducción según el clima."
+  tech: [Python]
+  github: https://github.com/DanteReinaudo/SpotiCloud
+
+- title: Crypto Monitor
+  description: "Plataforma para el monitoreo de criptomonedas en tiempo real, integrada con la API de Binance."
+  tech: [TypeScript]
+  github: https://github.com/DanteReinaudo/CryptoMonitor
+
+- title: SinoKa
+  description: "Juego de apuestas de caballos basado en contratos inteligentes en Ethereum; cada caballo representado como NFT."
+  tech: [Solidity]
+  github: https://github.com/DanteReinaudo/SinoKa-Turf
+
+- title: AlgoBlocks
+  description: "Juego educativo para enseñar conceptos básicos de programación mediante bloques visuales. Proyecto grupal en Java."
+  tech: [Java]
+  github: https://github.com/NicoPodesta/AlgoBlocks
+
+- title: Buscaminas
+  description: "Implementación del clásico Buscaminas en Python, con interfaz de línea de comandos y una versión posterior con interfaz gráfica (tkinter)."
+  tech: [Python]
+  github: https://github.com/DanteReinaudo/BuscaMinas

@@ -1,20 +1,21 @@
 ---
 layout: default
-lang: es
-alt_url: /en/
-alt_lang: en
+lang: en
+alt_url: /
+alt_lang: es
+permalink: /en/
 title: Dante Reinaudo — Data Engineer
 description: >-
-  Portfolio de Dante Reinaudo, Data Engineer en Muttdata. Python, SQL, Spark, dbt, Airflow, Databricks y AWS.
+  Portfolio of Dante Reinaudo, Data Engineer at Muttdata. Python, SQL, Spark, dbt, Airflow, Databricks and AWS.
 ---
-{% assign t = site.data.es.nav %}
-{% assign s = site.data.es.site %}
-{% assign exp = site.data.es.experience %}
-{% assign edu = site.data.es.education %}
-{% assign certs = site.data.es.certifications %}
-{% assign skills = site.data.es.skills %}
-{% assign other_projects = site.data.es.projects_other %}
-{% assign featured = site.projects | where: "lang", "es" | where: "featured", true | sort: "order" %}
+{% assign t = site.data.en.nav %}
+{% assign s = site.data.en.site %}
+{% assign exp = site.data.en.experience %}
+{% assign edu = site.data.en.education %}
+{% assign certs = site.data.en.certifications %}
+{% assign skills = site.data.en.skills %}
+{% assign other_projects = site.data.en.projects_other %}
+{% assign featured = site.projects | where: "lang", "en" | where: "featured", true | sort: "order" %}
 
 <section class="home" id="summary">
   <div class="home-text">
@@ -79,7 +80,7 @@ description: >-
   </div>
   <div class="box-grid">
     {% for project in featured %}
-    {% include project-card.html title=project.title description=project.subtitle url=project.url image=project.image tech=project.tech cta="Ver más" %}
+    {% include project-card.html title=project.title description=project.subtitle url=project.url image=project.image tech=project.tech cta="Read more" %}
     {% endfor %}
   </div>
 

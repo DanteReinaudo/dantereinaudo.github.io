@@ -1,0 +1,24 @@
+- title: SpotiCloud
+  description: "Python integration with the Spotify and OpenWeather APIs: playlist management and weather-based playlist generation."
+  tech: [Python]
+  github: https://github.com/DanteReinaudo/SpotiCloud
+
+- title: Crypto Monitor
+  description: "Real-time cryptocurrency monitoring platform integrated with the Binance API."
+  tech: [TypeScript]
+  github: https://github.com/DanteReinaudo/CryptoMonitor
+
+- title: SinoKa
+  description: "Smart-contract-based horse betting game on Ethereum; each horse represented as an NFT."
+  tech: [Solidity]
+  github: https://github.com/DanteReinaudo/SinoKa-Turf
+
+- title: AlgoBlocks
+  description: "Educational game teaching basic programming concepts through visual blocks. Group project built in Java."
+  tech: [Java]
+  github: https://github.com/NicoPodesta/AlgoBlocks
+
+- title: Minesweeper
+  description: "Classic Minesweeper implementation in Python, starting as a command-line version and later extended with a tkinter GUI."
+  tech: [Python]
+  github: https://github.com/DanteReinaudo/BuscaMinas

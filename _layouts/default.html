@@ -1,0 +1,41 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10101a">
+{% seo %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{% if page.alt_url and page.alt_lang %}
+<link rel="alternate" hreflang="{{ page.alt_lang }}" href="{{ page.alt_url | absolute_url }}">
+{% endif %}
+<link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+{% assign t = site.data[page.lang].nav %}
+{% assign s = site.data[page.lang].site %}
+{% assign home_url = '/' %}
+{% if page.lang == 'en' %}{% assign home_url = '/en/' %}{% endif %}
+
+<a class="skip-link" href="#main">{{ t.skip_to_content }}</a>
+
+{% include header.html t=t s=s home_url=home_url %}
+
+<main id="main">
+{{ content }}
+</main>
+
+{% include footer.html t=t s=s %}
+
+<script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+</body>
+</html>

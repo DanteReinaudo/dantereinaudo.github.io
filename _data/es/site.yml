@@ -1,0 +1,21 @@
+name: Dante Reinaudo
+role: Data Engineer
+location: Buenos Aires, Argentina
+email: dreinaudo@fi.uba.ar
+github: DanteReinaudo
+github_url: https://github.com/DanteReinaudo
+linkedin_url: https://ar.linkedin.com/in/dante-reinaudo
+cv_file: /cv/cv_es.pdf
+
+hero_tagline: >-
+  Construyo pipelines de datos de producción sobre Spark, Databricks y AWS.
+summary: >-
+  Ingeniero en Informática (UBA) y Data Engineer en Muttdata, donde diseño y mantengo
+  pipelines de datos end-to-end con Python, Spark y SQL sobre Databricks. Migré procesos
+  de Snowflake a Databricks y reemplacé jobs basados en queries por workflows orquestados
+  con dbt y Airflow. Certificado como Data Engineer por AWS y Databricks, y docente
+  auxiliar de Ingeniería de Software II en la Facultad de Ingeniería (UBA).
+
+contact_intro: >-
+  ¿Buscás sumar a alguien con experiencia en pipelines de datos, arquitectura y
+  cloud a tu equipo? Escribime y te respondo a la brevedad.

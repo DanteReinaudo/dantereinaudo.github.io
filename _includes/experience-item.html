@@ -1,0 +1,8 @@
+<div class="box">
+  <h6>{{ include.item.period }}{% if include.item.current %}<span class="badge">{{ include.current_label }}</span>{% endif %}</h6>
+  <h4>{{ include.item.role }}</h4>
+  <h5>{{ include.item.company }} &middot; {{ include.item.location }}</h5>
+  <ul>
+    {% for bullet in include.item.bullets %}<li>{{ bullet }}</li>{% endfor %}
+  </ul>
+</div>

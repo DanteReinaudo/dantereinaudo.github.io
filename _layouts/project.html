@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% assign t = site.data[page.lang].nav %}
+{% assign home_url = '/' %}
+{% if page.lang == 'en' %}{% assign home_url = '/en/' %}{% endif %}
+<article class="project-detail">
+  <header class="project-detail-header">
+    <p class="eyebrow">{{ t.projects }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% endif %}
+    {% if page.tech %}
+    <ul class="tag-list" aria-label="Tech stack">
+      {% for item in page.tech %}<li class="tag">{{ item }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  <div class="project-detail-body">
+    {{ content }}
+
+    {% if page.links %}
+    <section class="project-links" aria-label="Project links">
+      <h2>{{ page.links_label | default: "Links" }}</h2>
+      <ul>
+        {% for link in page.links %}
+        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <p class="back-link"><a href="{{ home_url }}#projects">&larr; {{ t.projects }}</a></p>
+  </div>
+</article>

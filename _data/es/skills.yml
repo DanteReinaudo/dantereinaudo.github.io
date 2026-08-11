@@ -1,0 +1,29 @@
+data_cloud:
+  - Python
+  - SQL
+  - Apache Spark
+  - dbt
+  - Apache Airflow
+  - Databricks
+  - AWS
+  - Snowflake
+
+languages:
+  - name: Rust
+    note: "Cliente BitTorrent construido desde cero; concurrencia con locks, semáforos y programación asíncrona."
+  - name: Java
+    note: "Programación orientada a objetos, principios SOLID y Test-Driven Development."
+  - name: C
+    note: "Estructuras de datos y manejo de memoria de bajo nivel."
+  - name: TypeScript / JavaScript
+    note: "Interfaces con React / React Native y backends con Node.js y Express."
+
+soft_skills:
+  - name: Trabajo en equipo
+    note: "Colaboración en equipos multidisciplinarios, tanto académicos como profesionales."
+  - name: Liderazgo
+    note: "Product Owner en proyectos académicos; priorización de backlog y entregables."
+  - name: Comunicación
+    note: "Definición de requerimientos y coordinación con stakeholders."
+  - name: Resolución de problemas
+    note: "Enfoque analítico para abordar problemas de ingeniería de datos y software."

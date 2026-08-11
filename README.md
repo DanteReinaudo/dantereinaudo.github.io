@@ -1,26 +1,22 @@
 # Portfolio Repository
 
-Welcome to my portfolio repository! 🚀
+Personal portfolio of Dante Reinaudo — Data Engineer.
 
-## About
+Live at [dantereinaudo.github.io](https://dantereinaudo.github.io/) (English at
+[/en/](https://dantereinaudo.github.io/en/)).
 
-This repository contains the source code and details of my personal portfolio. It showcases my projects, skills, and experiences in the field of computer engineering and software development.
+## Stack
 
-## Contents
+Static site built with [Jekyll](https://jekyllrb.com/), built and deployed
+automatically by GitHub Pages on every push to `main` (no CI/build pipeline of
+its own). Plain CSS, minimal vanilla JS.
 
-- **/assets:** Css, fonts and utils.
-- **/images:** Images and media files used in the portfolio.
+## Local development
 
-## Technologies Used
-* HTML
-* CSS
-* JavaScript
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-## Getting Started
-
-To view my portfolio, simply visit [Portfolio Website](https://dantereinaudo.github.io/).
-
-## Greetings
-Thank you for visiting my portfolio repository!
-
-
+See `CLAUDE.md` for the full architecture, content structure, and known
+implementation notes.
