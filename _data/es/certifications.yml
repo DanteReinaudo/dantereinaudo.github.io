@@ -1,4 +1,12 @@
 - name: AWS Certified Data Engineer – Associate
   issuer: Amazon Web Services
+  period: "2025"
 - name: Databricks Certified Data Engineer – Associate
   issuer: Databricks
+  period: "2025"
+- name: Machine Learning Specialization
+  issuer: Stanford Online & DeepLearning.AI
+  period: "2023"
+- name: Natural Language Processing Specialization
+  issuer: Stanford Online & DeepLearning.AI
+  period: "2023"

@@ -15,7 +15,6 @@ description: >-
 {% assign certs = site.data.en.certifications %}
 {% assign skills = site.data.en.skills %}
 {% assign other_projects = site.data.en.projects_other %}
-{% assign featured = site.projects | where: "lang", "en" | where: "featured", true | sort: "order" %}
 
 <section class="home" id="summary">
   <div class="home-text">
@@ -27,6 +26,11 @@ description: >-
       <a class="btn btn-outline" href="#contact">{{ t.contact }}</a>
     </div>
     <p class="home-meta">{{ s.location }}</p>
+    <ul class="home-social">
+      <li><a href="{{ s.github_url }}" aria-label="GitHub" target="_blank" rel="noopener"><i class="bx bxl-github"></i></a></li>
+      <li><a href="{{ s.linkedin_url }}" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="bx bxl-linkedin"></i></a></li>
+      <li><a href="mailto:{{ s.email }}" aria-label="{{ s.email }}"><i class="bx bx-envelope"></i></a></li>
+    </ul>
   </div>
   <div class="home-img">
     <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="{{ s.name }}" width="380" height="380">
@@ -78,18 +82,9 @@ description: >-
     <h2>{{ t.projects }}</h2>
     <p class="section-intro">{{ t.projects_intro }}</p>
   </div>
-  <div class="box-grid">
-    {% for project in featured %}
-    {% include project-card.html title=project.title description=project.subtitle url=project.url image=project.image tech=project.tech cta="Read more" %}
-    {% endfor %}
-  </div>
-
-  <div class="center section-subhead">
-    <h3 class="subheading">{{ t.other_projects }}</h3>
-  </div>
-  <div class="box-grid">
+  <div class="box-grid projects-grid">
     {% for p in other_projects %}
-    {% include project-card.html title=p.title description=p.description tech=p.tech github=p.github %}
+    {% include project-card.html title=p.title description=p.description image=p.image tech=p.tech links=p.links github=p.github %}
     {% endfor %}
   </div>
 </section>
@@ -110,9 +105,10 @@ description: >-
   </div>
 
   <div class="center"><h3 class="subheading">{{ t.certs_heading }}</h3></div>
-  <div class="box-grid">
+  <div class="box-grid certs-grid">
     {% for c in certs %}
     <div class="box">
+      {% if c.period %}<h6>{{ c.period }}</h6>{% endif %}
       <h4>{{ c.name }}</h4>
       <h5>{{ c.issuer }}</h5>
     </div>

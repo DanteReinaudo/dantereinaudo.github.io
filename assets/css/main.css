@@ -6,19 +6,20 @@
 
 /* ---------- Tokens ---------- */
 :root {
-  --font-body: 'Kosugi Maru', sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-body: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-mono: var(--font-body);
 
   --bg-color: #10101a;
   --panel-color: #0b0b13;
   --main-color: #39a88d;
   --main-color-soft: #39a88d33;
+  --main-color-strong: #21836a;
   --text-color: #ffffff;
   --text-color-soft: #ffffffcc;
   --text-color-faint: #9098ab;
   --border-color: #232336;
 
-  --big-font: clamp(2.5rem, 6vw, 5rem);
+  --big-font: clamp(2.5rem, 5vw, 4rem);
   --h2-font: 1.9rem;
   --p-font: 1rem;
   --radius: 6px;
@@ -52,7 +53,7 @@ span.accent { color: var(--main-color); }
 }
 .skip-link {
   position: absolute; left: 1rem; top: -3rem;
-  background: var(--main-color); color: var(--text-color);
+  background: var(--main-color-strong); color: var(--text-color);
   padding: 0.6em 1em; border-radius: var(--radius); z-index: 2000;
   transition: top 0.15s ease;
 }
@@ -117,7 +118,7 @@ header {
 
 /* ---------- Buttons ---------- */
 .btn {
-  background: var(--main-color);
+  background: var(--main-color-strong);
   color: var(--text-color);
   box-shadow: 4px 4px var(--text-color);
   display: inline-block;
@@ -155,7 +156,7 @@ header {
 }
 
 /* ---------- Sections (shared) ---------- */
-section { padding: 120px 14%; }
+section { padding: 70px 14%; }
 .center { text-align: center; }
 .center h2 {
   color: var(--text-color);
@@ -175,7 +176,7 @@ section { padding: 120px 14%; }
 }
 .section-subhead { margin-top: 4rem; }
 
-@media (max-width: 860px) { section { padding: 80px 6%; } }
+@media (max-width: 860px) { section { padding: 48px 6%; } }
 
 /* ---------- Home (hero) ---------- */
 .home {
@@ -192,6 +193,21 @@ section { padding: 120px 14%; }
 .home-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
 .home-meta { color: var(--text-color-faint); font-family: var(--font-mono); font-size: 0.85rem; }
 
+.home-social { display: flex; gap: 1rem; margin-top: 14px; }
+.home-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  color: var(--main-color);
+  font-size: 1.2rem;
+  transition: background 0.2s, color 0.2s;
+}
+.home-social a:hover { background: var(--main-color-strong); color: var(--text-color); }
+
 .home-img { display: flex; justify-content: center; }
 .home-img img {
   width: 380px;
@@ -203,7 +219,7 @@ section { padding: 120px 14%; }
 
 @media (max-width: 860px) {
   .home { grid-template-columns: 1fr; grid-gap: 2.5rem; text-align: center; min-height: auto; padding-top: 120px; }
-  .home-actions, .home-meta { justify-content: center; }
+  .home-actions, .home-meta, .home-social { justify-content: center; }
   .home-img img { width: 220px; }
 }
 
@@ -234,6 +250,12 @@ section { padding: 120px 14%; }
   margin-top: 3.5rem;
 }
 .box-grid.single-col { grid-template-columns: 1fr; max-width: 760px; margin-left: auto; margin-right: auto; }
+.box-grid.projects-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 1100px) { .box-grid.projects-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 700px) { .box-grid.projects-grid { grid-template-columns: 1fr; } }
+
+.box-grid.certs-grid { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 700px) { .box-grid.certs-grid { grid-template-columns: 1fr; } }
 .box {
   background: var(--panel-color);
   border: 1px solid var(--border-color);
@@ -264,7 +286,7 @@ section { padding: 120px 14%; }
 .box.project-box img { border-radius: var(--radius); margin-bottom: 1.25rem; aspect-ratio: 16/9; object-fit: cover; }
 .box.project-box h4 a { color: var(--text-color); }
 .box.project-box p { color: var(--text-color-soft); font-size: 0.92rem; flex: 1; margin-bottom: 0.5em; }
-.box-links { display: flex; gap: 1.25rem; font-size: 0.85rem; font-weight: 600; margin-top: 0.75em; }
+.box-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.1rem; font-size: 0.85rem; font-weight: 600; margin-top: 0.75em; }
 .box-links a { color: var(--main-color); }
 
 /* ---------- Skills primary list ---------- */

@@ -1,24 +1,55 @@
+- title: FiuFit
+  description: "Aplicación web y móvil para el monitoreo de entrenamientos en tiempo real"
+  tech: [Python, FastAPI, React, React Native, Node.js, MongoDB, PostgreSQL]
+  image: /assets/images/projects/fiufit.png
+  links:
+    - label: GitHub
+      url: https://github.com/fiufit-grupo-4
+    - label: Informe
+      url: https://befitting-attention-607.notion.site/FiuFit-Documentaci-n-general-5a17ec0566684fa3a5d723574eb02fd2
+    - label: Enunciado
+      url: https://taller-de-programacion-2.github.io/tasks/statement/2023/1/enunciado/
+    - label: YouTube
+      url: https://www.youtube.com/watch?v=5QWYGgnuDyI
+
+- title: Predicción de Daño por Terremotos
+  description: "Modelo de Machine Learning para estimar el daño edilicio del terremoto de Gorkha (2015)"
+  tech: [Python, Pandas, Scikit-learn, XGBoost]
+  image: /assets/images/projects/kaggle.png
+  links:
+    - label: GitHub
+      url: https://github.com/DanteReinaudo/EarthquakeDamagePrediction
+    - label: Informe
+      url: https://github.com/DanteReinaudo/EarthquakeDamagePrediction/blob/main/tp1/Informe%20TP1.pdf
+    - label: Competencia
+      url: https://www.drivendata.org/competitions/57/nepal-earthquake/
+
+- title: Cliente BitTorrent en Rust
+  description: "Implementación desde cero del protocolo BitTorrent con descargas concurrentes"
+  tech: [Rust]
+  image: /assets/images/projects/bittorrent.png
+  links:
+    - label: GitHub
+      url: https://github.com/DanteReinaudo/RustTorrent
+    - label: Informe
+      url: https://github.com/DanteReinaudo/RustTorrent/blob/main/Documentation/doc/INFORME%20-%20BITTORRENT.pdf
+    - label: Enunciado
+      url: https://taller-1-fiuba-rust.github.io/proyecto/22C1/proyecto.html
+
 - title: SpotiCloud
   description: "Integración con las APIs de Spotify y OpenWeather en Python: gestión de playlists y generación de listas de reproducción según el clima."
   tech: [Python]
+  image: /assets/images/projects/spotify.png
   github: https://github.com/DanteReinaudo/SpotiCloud
 
 - title: Crypto Monitor
   description: "Plataforma para el monitoreo de criptomonedas en tiempo real, integrada con la API de Binance."
   tech: [TypeScript]
+  image: /assets/images/projects/binance.png
   github: https://github.com/DanteReinaudo/CryptoMonitor
-
-- title: SinoKa
-  description: "Juego de apuestas de caballos basado en contratos inteligentes en Ethereum; cada caballo representado como NFT."
-  tech: [Solidity]
-  github: https://github.com/DanteReinaudo/SinoKa-Turf
-
-- title: AlgoBlocks
-  description: "Juego educativo para enseñar conceptos básicos de programación mediante bloques visuales. Proyecto grupal en Java."
-  tech: [Java]
-  github: https://github.com/NicoPodesta/AlgoBlocks
 
 - title: Buscaminas
   description: "Implementación del clásico Buscaminas en Python, con interfaz de línea de comandos y una versión posterior con interfaz gráfica (tkinter)."
   tech: [Python]
+  image: /assets/images/projects/buscaminas.png
   github: https://github.com/DanteReinaudo/BuscaMinas

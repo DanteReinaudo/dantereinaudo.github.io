@@ -8,7 +8,9 @@
   </ul>
   {% endif %}
   <div class="box-links">
-    {% if include.url %}<a href="{{ include.url }}">{{ include.cta }} &rarr;</a>{% endif %}
+    {% if include.links %}
+      {% for link in include.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+    {% endif %}
     {% if include.github %}<a href="{{ include.github }}">GitHub</a>{% endif %}
   </div>
 </div>

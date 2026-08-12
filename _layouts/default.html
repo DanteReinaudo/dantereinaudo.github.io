@@ -11,11 +11,12 @@
 {% if page.alt_url and page.alt_lang %}
 <link rel="alternate" hreflang="{{ page.alt_lang }}" href="{{ page.alt_url | absolute_url }}">
 {% endif %}
-<link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="icon" type="image/png" href="{{ '/assets/images/icon/green/favicon.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/images/icon/green/apple-touch-icon.png' | relative_url }}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">

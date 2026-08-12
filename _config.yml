@@ -20,16 +20,7 @@ lang: es
 default_lang: es
 languages: [es, en]
 
-collections:
-  projects:
-    output: true
-
 defaults:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: project
   - scope:
       path: ""
       type: pages
