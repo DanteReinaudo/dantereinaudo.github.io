@@ -1,22 +1,26 @@
 data_cloud:
-  - Python
-  - SQL
-  - Apache Spark
-  - dbt
-  - Apache Airflow
-  - Databricks
-  - AWS
-  - Snowflake
+  - name: Python
+    note: "Scripting, automatización y pipelines de datos end-to-end."
+  - name: SQL
+    note: "Modelado de datos y queries analíticas sobre grandes volúmenes."
+  - name: Apache Spark
+    note: "Procesamiento distribuido de datos a gran escala."
+  - name: dbt
+    note: "Transformaciones versionadas, testeadas y documentadas."
+  - name: Apache Airflow
+    note: "Orquestación de workflows de datos en producción."
+  - name: Databricks
+    note: "Plataforma unificada de datos; certificado como Data Engineer."
+  - name: AWS
+    note: "Infraestructura cloud de datos; certificado como Data Engineer."
+  - name: Snowflake
+    note: "Data warehousing en la nube, migrado a Databricks en producción."
 
-languages:
-  - name: Rust
-    note: "Cliente BitTorrent construido desde cero; concurrencia con locks, semáforos y programación asíncrona."
-  - name: Java
-    note: "Programación orientada a objetos, principios SOLID y Test-Driven Development."
-  - name: C
-    note: "Estructuras de datos y manejo de memoria de bajo nivel."
-  - name: TypeScript / JavaScript
-    note: "Interfaces con React / React Native y backends con Node.js y Express."
+machine_learning:
+  - name: Machine Learning
+    note: "Modelos predictivos con Scikit-learn y XGBoost (predicción de daño edilicio por terremotos). Especialización de Stanford Online / DeepLearning.AI."
+  - name: NLP
+    note: "Procesamiento de Lenguaje Natural. Especialización de Stanford Online / DeepLearning.AI."
 
 soft_skills:
   - name: Trabajo en equipo

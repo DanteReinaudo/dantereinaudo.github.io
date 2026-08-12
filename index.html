@@ -51,20 +51,30 @@ description: >-
   <div class="center">
     <h2>{{ t.expertise }}</h2>
   </div>
-  <ul class="skills-primary-list">
-    {% for skill in skills.data_cloud %}<li>{{ skill }}</li>{% endfor %}
-  </ul>
 
+  <div class="center"><h3 class="subheading">{{ t.data_cloud_heading }}</h3></div>
   <div class="row-grid">
-    {% for lang in skills.languages %}
+    {% for skill in skills.data_cloud %}
     <div class="row">
-      <i class="bx bx-code-curly"></i>
-      <h3>{{ lang.name }}</h3>
-      <p>{{ lang.note }}</p>
+      <i class="bx bx-data"></i>
+      <h3>{{ skill.name }}</h3>
+      <p>{{ skill.note }}</p>
     </div>
     {% endfor %}
   </div>
 
+  <div class="center"><h3 class="subheading">{{ t.ml_heading }}</h3></div>
+  <div class="row-grid">
+    {% for skill in skills.machine_learning %}
+    <div class="row">
+      <i class="bx bx-brain"></i>
+      <h3>{{ skill.name }}</h3>
+      <p>{{ skill.note }}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="center"><h3 class="subheading">{{ t.soft_skills_heading }}</h3></div>
   <div class="row-grid">
     {% for item in skills.soft_skills %}
     <div class="row">

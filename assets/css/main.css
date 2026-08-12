@@ -289,17 +289,6 @@ section { padding: 70px 14%; }
 .box-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.1rem; font-size: 0.85rem; font-weight: 600; margin-top: 0.75em; }
 .box-links a { color: var(--main-color); }
 
-/* ---------- Skills primary list ---------- */
-.skills-primary-list { display: flex; flex-wrap: wrap; gap: 0.6em; margin-top: 3rem; justify-content: center; }
-.skills-primary-list li {
-  font-family: var(--font-mono);
-  font-weight: 600;
-  padding: 0.5em 1em;
-  border: 1px solid var(--main-color);
-  color: var(--main-color);
-  border-radius: 999px;
-}
-
 /* ---------- CTA banner ---------- */
 .cta {
   background: var(--panel-color);
